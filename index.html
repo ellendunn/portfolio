@@ -2,7 +2,8 @@
 <html lang='en'>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<title>Ellen Dunn - Engineer</title>
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -18,17 +19,17 @@
 
 	<header class='nav-bar'>
 		<h1 id='header'>Ellen Dunn</h1>
-			<a href ='#bio'>
-				<button type = 'button'>About</button>
-			</a>
+			<!-- <a href ='#bio'> -->
+				<button id='bio-button' type='button'>About</button>
+			<!-- </a> -->
 			<a href= '#projects'>
-				<button type = 'button'>Work</button>
+				<button class='projects-button'type='button'>Work</button>
 			</a>
 			<a href='https://github.com/ellendunn' target='_blank'>
-				<button type = 'button'>GitHub</button>
+				<button type='button'>GitHub</button>
 			</a>
 			<a href='https://linkedin.com/in/ellen-dunn' target='_blank'>
-				<button type = 'button'>LinkedIn</button>
+				<button type='button'>LinkedIn</button>
 			</a>
 	</header>
 
@@ -37,26 +38,47 @@
 			<h2>About</h2>
 			<div class='about-me'>
 				<p>I am an Arizona native currently living in Chicago, IL.</p>
-				<p>My professional background includes sustainable agriculture, engineering, and web development. Working with passionate people toward a common goal is what motivates me on projects. I get excited when I see a project with an important mission successfully come to fruition.</p>
-				<p class='pizza'>When I'm not programming, I am performing improv at The Second City in Chicago, IL. You can also catch me in plaid in this <a href='https://www.youtube.com/watch?v=OQUqa_QsDt0' target='_blank' class='pizza'>pizza commercial</a> from my other life as an actress .</p>
+				<p>My professional background includes sustainable agriculture,
+					engineering, and web development. Working with passionate people
+					toward a common goal is what motivates me on projects. I get excited
+					when I see a project with an important mission successfully come to
+					fruition.</p>
+				<p class='pizza'>When I'm not programming, I am performing improv at
+					The Second City in Chicago, IL. You can also catch me in plaid
+					in this
+					<a
+						href='https://www.youtube.com/watch?v=OQUqa_QsDt0'
+						target='_blank' class='pizza'
+					>
+						pizza commercial
+					</a>
+					from my other life as an actress.</p>
+				<p>I am currently seeking a position in web development.
+					I can be contacted by email at
+					<a href='mailto:edunn227@gmail.com'>
+						edunn227@gmail.com
+					</a> .
+				</p>
 			</div>
 		</section>
+
 		<section id='projects'>
 			<h2>Recent Work</h2>
-			<div id='project-1'>
-				<h3>Market Finder</h3>
-				<p>Explore farmers' markets near you and discover what they have to offer.</p>
-				<p>HTML 5 || CSS || JavaScript || jQuery || USDA API || Google Maps API</p>
-				<img src='./images/mf-results-details.png' /><br>
+			<div id='project-3'>
+				<h3>KitchenSmart</h3>
+				<p>Discover new recipes too cook with ingredients you already have to save money and reduce waste.</p>
+				<p>HTML5 || CSS || JavaScript || AJAX || Node.js || Express || React & Redux || Mongoose || Chai-Http </p>
+				<img src='./images/kitchensmart-dashboard.png' /><br>
 				<section  class='project-links'>
-					<a href='https://github.com/ellendunn/market-finder' target='_blank' class='github market-finder'>
+					<a href='https://github.com/ellendunn/fullstack-capstone-client' target='_blank' class='github kitchensmart'>
 						<button type='button'>View Code</button>
 					</a>
-					<a href='https://ellendunn.github.io/market-finder/' target='_blank' class='live market-finder'>
+					<a href='https://kitchensmart.herokuapp.com/' target='_blank' class='live kitchensmart'>
 						<button type='button'>View Project</button>
 					</a>
 				</section>
 			</div>
+
 			<div id='project-2'>
 				<h3>Trackter</h3>
 				<p>Organize jobs applications so you can keep track of every opportunity to advance your career.</p>
@@ -71,6 +93,22 @@
 					</a>
 				</section>
 			</div>
+
+			<div id='project-1'>
+				<h3>Market Finder</h3>
+				<p>Explore farmers' markets near you and discover what they have to offer.</p>
+				<p>HTML 5 || CSS || JavaScript || jQuery || USDA API || Google Maps API</p>
+				<img src='./images/mf-results-details.png' /><br>
+				<section  class='project-links'>
+					<a href='https://github.com/ellendunn/market-finder' target='_blank' class='github market-finder'>
+						<button type='button'>View Code</button>
+					</a>
+					<a href='https://ellendunn.github.io/market-finder/' target='_blank' class='live market-finder'>
+						<button type='button'>View Project</button>
+					</a>
+				</section>
+			</div>
+
 		</section>
 	</main>
 

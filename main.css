@@ -25,7 +25,7 @@ body {
 	linear-gradient(
     rgba(0, 0, 0, .5),
     rgba(0, 0, 0, .5)
-    ), 
+    ),
 		url('https://images.unsplash.com/photo-1494522855154-9297ac14b55f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=78da260f3928a32011405c465f5422f4&auto=format&fit=crop&w=1050&q=80');
 	background-position: center;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ h3 {
 .pizza {
 	padding: 0px;
 	margin: 0px;
-	padding-bottom: 20px;
+	/* padding-bottom: 20px; */
 }
 
 div {
@@ -78,7 +78,7 @@ div {
 	color: white;
 	background-color: white;
 	border: none;
-	background: 
+	background:
 		linear-gradient(
 	    rgba(0, 0, 0, 0),
 	    rgba(0, 0, 0, 0)
@@ -120,6 +120,11 @@ img {
 
 a {
   text-decoration: none;
+	color: purple
+}
+
+a:hover {
+	color: #37474f
 }
 
 div button {
@@ -144,4 +149,3 @@ button {
 	border-radius: 3px;
 	padding: 10px;
 }
-
