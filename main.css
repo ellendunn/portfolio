@@ -109,7 +109,7 @@ img {
 	padding: 20px;
 }
 
-#project-1, #project-2 {
+#project-1, #project-2, #project-3 {
 	margin-top: 30px;
 }
 
@@ -149,3 +149,51 @@ button {
 	border-radius: 3px;
 	padding: 10px;
 }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px)
+and (max-device-width : 768px) {
+/* Styles */
+	#header {
+		font-size: 60px;
+		/*border: 1px white solid;*/
+		margin: 40px 0px;
+	}
+
+	.nav-bar {
+		padding: 80px 25px;
+	}
+
+	.nav-bar button {
+		margin-top: 20px
+	}
+
+	.about-me {
+		padding: 15px;
+	}
+
+	#bio, #projects {
+		padding: 20px 0px;
+	}
+
+	main {
+		padding: 25px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and
+(max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and
+(max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
